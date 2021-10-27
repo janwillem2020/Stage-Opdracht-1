@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Number validator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Validate checksum</h1>
+	<div class="form">
+		<div>
+			<label>Number:</label>
+			<input type="text" id='input'>
+		</div>
+		<div>
+			<label>Modulo:</label>
+			<select id="modulo">
+				<option value="7">7</option>
+				<option value="9">9</option>
+				<option value="11">11</option>
+				<option value="13">13</option>
+			</select>
+		</div>
+		<button id="button">Validate</button>
+	</div>
+	<div class="result-container">
+		<span>Result:</span>
+		<div id="result">&#8205;</div>
+	</div>
+	
+	<script src="script.js"></script>
+</body>
+</html>

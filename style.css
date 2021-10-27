@@ -1,0 +1,24 @@
+.form div {
+	margin: 10px 0;
+}
+.form div label {
+	padding-right: 20px;
+}
+.form button {
+	padding: 5px 50px;
+}
+.result-container * {
+	display: inline-block;
+	line-height: 40px;
+	margin: 10px 0;
+}
+#result {
+	text-align: center;
+	font-weight: bold;
+	width: 110px;
+	height: 40px;
+	background-color: lightgray;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-transform: capitalize;
+}
